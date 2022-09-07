@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login  | Home</title>
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+        body{
+            background: linear-gradient(to right,#03bd1b, #08a772);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-main">
+        <div class="brand-header">
+           <img src="img/logo-white.png" alt="brand-head">
+           <h1>Nija Kitchen</h1>
+           <p id="message"></p>
+
+        </div>
+        <form action="">
+          
+            <input type="text" placeholder="Email"  id="email" required>
+            <input type="password" name="" id="password" placeholder="Password" required>
+            <button class="btn-green" id="btn-login" onclick="signIn(emailInput,passwordInput)">login</button>
+
+            
+            <p id="login-msg"></p>
+        </form>
+        <div class="already_member_box">
+          <p class="already_a_member">Not yet a member?</p>  <a href="register.html" class="link-home" > Register here</a>
+        </div>
+    </div>
+    
+        
+<script src="js/login.js"></script>
+</body>
+</html>
